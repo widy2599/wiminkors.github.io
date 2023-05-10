@@ -1,0 +1,416 @@
+@media screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding-left: 0;
+    }
+    .logo {
+        padding-bottom: 0.5em;
+    }
+    .nav {
+        display:flex;
+        flex-direction: column;
+    }
+    button {
+        max-width: 500px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gambar-sayur {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        max-width: 350px;
+    }
+    .content {
+        align-items: center;
+    }
+    .form {
+        margin-top: 1em;
+    }
+    .fitur-long {
+        max-width: 400px;
+    }
+    body {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 850px) {
+    header {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding-left: 0;
+    }
+    .logo {
+        padding-bottom: 0.5em;
+    }
+    .nav {
+        display:flex;
+        flex-direction: column;
+    }
+    button {
+        max-width: 500px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gambar-sayur {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        max-width: 700px;
+    }
+    .content {
+        align-items: center;
+    }
+    .form {
+        margin-top: 1em;
+    }
+    .fitur-long {
+        max-width: 900px;
+    }
+    body {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1200px) {
+    header {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding-left: 0;
+    }
+    .logo {
+        padding-bottom: 0.5em;
+    }
+    .nav {
+        display:flex;
+    }
+    button {
+        max-width: 500px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gambar-sayur {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        max-width: 700px;
+    }
+    .content {
+        align-items: center;
+    }
+    .form {
+        margin-top: 1em;
+    }
+    .fitur-long {
+        max-width: 900px;
+    }
+    body {
+        margin: 0;
+    }
+}
+html {
+    font-family: sans-serif;
+    font-size: 150%;
+    color: rgb(75,75,75)
+}
+body {
+    margin: 20px 80px 20px;
+    justify-content: center;
+}
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 1em;
+}
+.logo {
+    font-style:oblique;
+    font-weight: bolder;
+    font-size: 150%;
+    color: black;
+}
+.nav {
+    display: flex;
+}
+.nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 0.5em;
+}
+button {
+    font-size: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 5%;
+    width: 180px;
+}
+button:hover {
+    background-color: lightgray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.title {
+    text-align: center;
+    padding-top:1.5em;
+}
+.title > h1 {
+    font-weight: bolder;
+    font-size: 200%;
+}
+.title > p {
+    color: gray;
+    font-size: 110%;
+}
+.home {
+    display:flex;
+}
+.content {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+.gambar-sayur {
+    width: 700px;
+    padding-top: 1em;
+    display:block;
+}
+.navigation-buttom {
+    text-align: center;
+    position: relative;
+}
+#oblique-gray {
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    padding-top: 1em;
+}
+.testimoni {
+    border: none;
+    display: flex;
+    padding-top:3em;
+}
+.circle {
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.gambar-orang {
+    width: 25px;
+    height: auto;
+    padding: 20px 25px 20px;
+    align-self: center;
+}
+.testimoni-2 {
+    display:flex;
+    flex-direction: column;
+}
+.nama, .ident {
+    padding-left: 1.5em;
+    padding-top: 0.6em;
+    font-size: 85%;
+}
+.nama {
+    font-weight: bolder;
+    padding-bottom: none;
+}
+.ident {
+    font-style: italic;
+    color: gray;
+    padding-top:0.5em;
+}
+.fitur-long {
+    padding: 2.5em 0em 1.5em;
+    font-weight: bolder;
+    width: 600px;
+}
+.fitur-flex {
+    display: flex;
+    flex-direction: column;
+}
+.fitur {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.circle-nomor {
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 60px;
+    padding: 0.6em 0 0.6em;
+    text-align: center;
+    font-weight: bolder;
+    color:gray;
+}
+.fitur-poin {
+    padding: 1.5em 0 1em 1.5em;
+    color: gray;
+    font-size:90%;
+    justify-content: center;
+    width: 400px;
+}
+.form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em 1em 1em;
+    background-color: lightgray;
+    height: 600px;
+}
+.form-top {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    font-size: 80%;
+    padding: 1em;
+}
+.main-form {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 1em;
+}
+label {
+    font-weight: bolder;
+    font-size: 80%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: gray;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: blue;
+}
+.title-part2 {
+    background-color: lightgray;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+.package {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.package-item {
+    flex: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+.package-poin {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: fit-content;
+    padding-left: 1em;
+}
+.circle-package {
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 60px;
+    height: 30px;
+    padding: 0.6em 0 0.6em;
+    text-align: center;
+    font-weight: bolder;
+    color:gray;
+}
+.gambar-lampu{
+    width: 15px;
+}
+.gambar-bintang {
+    width: 25px;
+}
+.package-poin-name {
+    flex: 1;
+    font-weight: bolder;
+    padding-top: 0.5em;
+}
+.package-poin-exp {
+    flex:1;
+    color: gray;
+    padding-top: 1em;
+}
+.closing-headline {
+    text-align: center;
+    justify-content: center;
+    padding: 2em 5em 2em;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.closing-headline > p {
+    color: gray;
+    size: 90%;
+}
+input[type=submitCTA] {
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.footer-link {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+.ToS {
+    padding-right: 1em;
+    color: gray;
+}
+.PP {
+    padding-left: 1em;
+    color: gray;
+}
+.end {
+    color:gray;
+    padding-top: 0.5em;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script>
+            function myFunction () {
+                alert("The form was submitted");
+            }
+        </script>
+    
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">moqups</div>
+            <div class="nav">
+                <button class="nav-item"><a href="#home">Home</a></button>
+                <button class="nav-item"><a href="#package">Our Package</a></button>
+                <button class="nav-item"><a href="#call-to-action">Call Us</a></button>
+            </div>
+        </header>
+
+        <section class="title" id="home">
+            <h1>Top Rate E-Groceries Shop in <br> Indonesian</h1>
+            <p>Every Day with best ingredients</p>
+        </section>
+        <section class="home">
+            <article class="content">
+                <div class="slider">
+                    <img id="image-1" class="gambar-sayur" src="https://awsimages.detik.net.id/community/media/visual/2020/06/25/belanja-sayur_169.jpeg?w=700&q=90" alt="Image-1"/>
+                    <img id="image-2" class="gambar-sayur" src="https://cdnaz.cekaja.com/media/2020/09/1892_Artikel-CA20_-daftar-penjual-sayur-dan-buah-online.jpg" alt="Image-2" />
+                    <img id="image-3" class="gambar-sayur" src="https://media.dekoruma.com/design-and-build/projects/19231/files/3(b006496c-f17c-4eab-9bec-074131131ce0).jpg?auto=webp&dpr=1&optimize=high&quality=20" alt="Image-3" />
+                </div>
+
+                <div id="oblique-gray">"setiap hari beli sayur buah yang fresh disini"</div>
+                <div class="testimoni">
+                    <div class="circle"><img class="gambar-orang" src="https://cdn.onlinewebfonts.com/svg/img_364056.png" /></div>
+                    <div class="testimoni-2">
+                        <div class="nama">Florence Hughes</div>
+                        <div class="ident">Ibu Rumah Tangga, 28</div>
+                    </div>
+                </div>
+                <div class="fitur-long">Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</div>
+                <div class="fitur-flex">
+                    <div class="fitur">
+                        <div class="circle-nomor">1</div>
+                        <div class="fitur-poin">Your first feature, written in the form of a benefit statement</div>
+                    </div>
+                    <div class="fitur">
+                        <div class="circle-nomor">2</div>
+                        <div class="fitur-poin">Your second feature, written in the form of a benefit statement</div>
+                    </div>
+                    <div class="fitur">
+                        <div class="circle-nomor">3</div>
+                        <div class="fitur-poin">Your third feature, written in the form of a benefit statement</div>
+                    </div>
+                </div>
+            </article>
+            <article class="form">
+                <div class="form-top">
+                    <h2>Contact Us</h2>
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                </div>
+                <div class="main-form" id="main-form">
+                    <form name="main-form" onsubmit="myFunction()">
+                        <label for="fl-name">Your Name:</label>
+                        <input type="text" id="fl-name" name="name" placeholder="First and Last Name" required>
+    
+                        <label for="email">Email Address:</label>
+                        <input type="text" id="email" name="email" placeholder="example@email.com" required>
+    
+                        <label for="interest">What are you interested in?</label>
+                        <select id="interest" name="interest">
+                            <option value="freshvegetable">Fresh Vegetable</option>
+                            <option value="freshfruit">Fresh Fruit</option>
+                            <option value="instantdelivery">Instant Delivery</option>
+                            <option value="kitcheningredients">Kitchen Ingredient</option>\
+                            <option value="kitchenset">Kitchen Set</option>
+                            <option value="bundingset">Bunding Set</option>
+                        </select>
+                        <input type="submit" name="submit" value="SEND">
+                    </form>
+                </div>
+            </article>
+        </section>
+
+        <section class="title-part2" id="package">
+            <h1>Our Package</h1>
+        </section>
+        <section class="package">
+
+            <div class="package-item">
+                <div class="circle-package"><img class="gambar-lampu" src="https://cdn.pixabay.com/photo/2015/08/13/23/09/lightbulb-887692_960_720.png"></div>
+                <div class="package-poin">
+                    <div class="package-poin-name">Fresh Vegetable</div>
+                    <div class="package-poin-exp">Sayuran segar langsung dari sumber pertanian terbaik</div>
+                </div>
+            </div>
+
+            <div class="package-item">
+                <div class="circle-package"><img class="gambar-lampu" src="https://cdn.pixabay.com/photo/2015/08/13/23/09/lightbulb-887692_960_720.png"></div>
+                <div class="package-poin">
+                    <div class="package-poin-name">Fresh Fruit</div>
+                    <div class="package-poin-exp">Buah dengan kualitas terbaik dari lokal atau import dan harga yang menarik</div>
+                </div>
+            </div>
+
+            <div class="package-item">
+                <div class="circle-package"><img class="gambar-lampu" src="https://cdn.pixabay.com/photo/2015/08/13/23/09/lightbulb-887692_960_720.png"></div>  
+                <div class="package-poin">
+                    <div class="package-poin-name">Instant Delivery</div>
+                    <div class="package-poin-exp">Dikirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu</div>
+                </div>
+            </div>
+            
+            <div class="package-item">
+                <div class="circle-package"><img class="gambar-bintang" src="https://www.svgrepo.com/show/50566/star.svg"></div>
+                <div class="package-poin">
+                    <div class="package-poin-name">KItchen Ingredient</div>
+                    <div class="package-poin-exp">Bumbu dapur lengkap untuk keperluan memasak kamu</div>
+                </div>
+            </div>
+
+            <div class="package-item">
+                <div class="circle-package"><img class="gambar-bintang" src="https://www.svgrepo.com/show/50566/star.svg"></div>
+                <div class="package-poin">
+                    <div class="package-poin-name">Kitchen Set</div>
+                    <div class="package-poin-exp">Segaja jenis alat masak untuk membantu kamu memasak</div>
+                </div>
+            </div>
+
+            <div class="package-item">
+                <div class="circle-package"><img class="gambar-bintang" src="https://www.svgrepo.com/show/50566/star.svg"></div>
+                <div class="package-poin">
+                    <div class="package-poin-name">Bunding Set</div>
+                    <div class="package-poin-exp">Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapur mu</div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="closing-headline" id="call-to-action">
+            <h1>Be Our Precious Customer</h1>
+            <p>We have proven experiences in serving our precious customer. Don't need to worry! You can fulfil all you need with us. We have various packages for your ingredients and kitchen need. Trust us? Hit the Button Bellow!</p>
+            <input type="submitCTA" value="CALL TO ACTION">
+        </section>
+
+        <section class="footer">
+            <div class="logo">moqups</div>
+            <div class="footer-link">
+                <div class="ToS">Terms of Service</div>
+                <div class="PP">Privacy Policy</div>
+            </div>
+            <div class="end">2019 Mooqups</div>
+        </footer>
+    
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("gambar-sayur");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+         </script>
+    
+    </body>
+</html>
